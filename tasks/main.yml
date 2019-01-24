@@ -22,11 +22,11 @@
     dest: /etc/default/icecast2
     mode: 0755
   become: true
-  notify: 
+  notify:
     - start icecast
 
 - name: Icecast | Restart icecast2
-  service: 
+  service:
     name: icecast2
     state: restarted
   become: true
