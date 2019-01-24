@@ -14,6 +14,9 @@ install:
   - "{ echo '[defaults]'; echo 'roles_path = ../'; } >> ansible.cfg"
 
 script:
+  # Install ansible role
+  - ansible-galaxy install makarenalabs.icecast
+
   # Create symlink to role with correct name
   - ln -s ansible-role-icecast ../makarenalabs.icecast
 
