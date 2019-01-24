@@ -6,4 +6,4 @@
     - ice_relaypassword: hackme
     - ice_adminpassword: hackme
   roles:
-    - makarenalab.icecast
+    - makarenalabs.icecast
