@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://gitlab.xiph.org/uploads/-/system/project/avatar/2/240px-Icecast-Logo-Alternative.svg.png">
+  <img width="150" height="150" src="https://gitlab.xiph.org/uploads/-/system/project/avatar/2/240px-Icecast-Logo-Alternative.svg.png">
 </p>
 
 # Ansible Role: Icecast
