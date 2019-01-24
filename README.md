@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://gitlab.xiph.org/uploads/-/system/project/avatar/2/240px-Icecast-Logo-Alternative.svg.png">
+</p>
+
 # Ansible Role: Icecast
 [![Build Status](https://travis-ci.org/MakarenaLabs/ansible-role-icecast.svg?branch=master)](https://travis-ci.org/MakarenaLabs/ansible-role-icecast)
 [![License](https://img.shields.io/github/license/MakarenaLabs/ansible-role-icecast.svg)](https://opensource.org/licenses/MIT)
