@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  role_name: icecast
+  author: matteocastagnaro
+  description: Icecast2 server for Media Streaming
+  company: "makarenalabs.com"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.4
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+    - xenial
+    - yakkety
+  galaxy_tags:
+  - development
+  - web

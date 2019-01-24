@@ -1,0 +1,32 @@
+---
+- name: Icecast | Installing icecast2
+  apt:
+    pkg: ['icecast2']
+    update_cache: yes
+    cache_valid_time: 86400
+    state: present
+  become: true
+
+- name: Icecast | Install icecast.xml configuration file
+  template:
+    src: icecast_xml.j2
+    dest: /etc/icecast2/icecast.xml
+    owner: icecast2
+    group: icecast
+    mode: 0660
+  become: true
+
+- name: Icecast | Install icecast2 and enable daemon
+  copy:
+    src: files/icecast2
+    dest: /etc/default/icecast2
+    mode: 0755
+  become: true
+  notify: 
+    - start icecast
+
+- name: Icecast | Restart icecast2
+  service: 
+    name: icecast2
+    state: restarted
+  become: true

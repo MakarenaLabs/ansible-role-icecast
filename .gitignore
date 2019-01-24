@@ -1,0 +1,4 @@
+.*
+*~
+vagrant_*
+!.gitignore

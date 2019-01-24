@@ -1,0 +1,9 @@
+---
+- hosts: default
+  vars:
+    - ice_hostname: localhost
+    - ice_sourcepassword: hackme
+    - ice_relaypassword: hackme
+    - ice_adminpassword: hackme
+  roles:
+    - icecast
