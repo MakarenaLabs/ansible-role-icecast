@@ -2,6 +2,9 @@
 [![Build Status](https://travis-ci.org/MakarenaLabs/ansible-role-icecast.svg?branch=master)](https://travis-ci.org/MakarenaLabs/ansible-role-icecast)
 [![License](https://img.shields.io/github/license/MakarenaLabs/ansible-role-icecast.svg)](https://opensource.org/licenses/MIT)
 [![Ansible Version](https://img.shields.io/badge/ansible-%3E%3D_1.4-8892BF.svg)](https://www.ansible.com/)
+[![Ansible Role](https://img.shields.io/ansible/role/36514.svg)](https://galaxy.ansible.com/MakarenaLabs/icecast/)
+[![Ansible Quality](https://img.shields.io/ansible/quality/36514.svg)](https://galaxy.ansible.com/MakarenaLabs/icecast/)
+[![Ansible Downloads](https://img.shields.io/ansible/role/d/36514.svg)](https://galaxy.ansible.com/MakarenaLabs/icecast/)
 
 Ansible role that installs Icecast for your personal media streaming.
 
